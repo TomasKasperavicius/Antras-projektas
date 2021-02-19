@@ -1,12 +1,14 @@
 # Studentų galutinio balo skaičiuoklė
 # Programos funkcijos
 * Programa skaičiuoja studentų galutinį balą, kurį sudaro namų darbų pažymių vidurkis bei egzamino pažymys, pagal šią formulę:
+
 ![](https://latex.codecogs.com/gif.latex?Galutinis%20%3D%200.4%20*%20vidurkis%20&plus;%200.6%20*%20egzaminas)<br />
 Gautas rezultatas pateikiamas šiuo pavidalu:
 
 ![](https://user-images.githubusercontent.com/78591148/108546571-fd763780-72f1-11eb-83e8-d9cbd783415e.png)
 
 * Programa skaičiuoja studentų galutinį balą, kurį sudaro namų darbų pažymių mediana bei egzamino pažymys, pagal šią formulę:
+
 ![](https://latex.codecogs.com/gif.latex?Galutinis%20%3D%200.4%20*%20mediana%20&plus;%200.6%20*%20egzaminas)<br />
 Gautas rezultatas pateikiamas šiuo pavidalu:
 
