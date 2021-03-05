@@ -211,7 +211,7 @@ void FailoSkaitymas(vector<Studentas> &st, char vid_med, int &ilgiausia_pavarde,
                 os << eilutes_numeris;
                 throw os.str()+" failo eiluteje buvo rastas pazymys, sudarytas is simboliu!";
             }
-            }catch(const char* zinute)
+            }catch(std::string zinute)
             {
                 std::cerr << zinute << endl;
                 exit(1);
@@ -232,7 +232,7 @@ void FailoSkaitymas(vector<Studentas> &st, char vid_med, int &ilgiausia_pavarde,
             stud.egzaminas=pazymiai[pazymiai.size()-1];
             stud.galutinis=GalutinisBalas(stud,vid_med);
         }
-        catch(const char* zinute)
+        catch(std::string zinute)
         {
             std::cerr << zinute << endl;
             exit(1);
