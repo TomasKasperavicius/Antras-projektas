@@ -20,6 +20,6 @@ Gautas rezultatas pateikiamas šiuo pavidalu:
 # Įsidiegimo bei naudojimosi instrukcija
 * Reikia parsisiųsti Vector.cpp failą.
 * Atsidaryti šį failą Visual Studio Code IDE.
-* Windows Subsystem Linux komandinėje eilutėje reikia subuildinti projektą (g++ -o Vector Vector.cpp).
+* Windows Subsystem Linux komandinėje eilutėje reikia subuildinti projektą: g++ -c funkcijos.cpp, po to g++ -o Vector Vector.cpp funkcijos.o arba papildomai atsisiuntus makefile'ą: make Vector.
 * Pasileisti programą (./Vector).
 * Pasileidus programai reikia nurodyti duomenu įvesties būdą (įvedimas rankomis arba failo nuskaitymas), pasirinkti galutinio balo skaičiavimą pagal vidurkį arba medianą. Jeigu buvo pasirinktas įvedimas rankomis, tuomet reikia dar pasirinkti ar namų darbų ir egzamino pažymiai bus generuojami atsitiktinai ar suvedami ranka, nurodoma ar žinomas namų darbų skaičius. Toliau yra suvedami studentų duomenys atitinkamai: jei buvo pasirinktas namų darbų ir egzamino pažymių atsitiktinis generavimas tai įvedama tik vardas ir pavardė, o jeigu suvedimas ranka - įvedama vardas, pavardė, namų darbų bei egzamino pažymiai. Jeigu buvo pasirinktas įvesties būdas failo nuskaitymas, tai reikia tik pasirinkti būdą, pagal kurį bus skaičiuojamas studentų galutinis balas (vidurkį arba medianą).
