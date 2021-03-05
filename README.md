@@ -18,7 +18,7 @@ Gautas rezultatas pateikiamas šiuo pavidalu:
 * Pasirinkus įvesties būdą (įvedimas ranka), galima pasirinkti namų darbų bei egzamino pažymių įvedimą generuojant atsitiktinai arba suvedant rankomis.
 * Programa pateikia rezultatus studentų vardų abėcėline tvarka.
 # Įsidiegimo bei naudojimosi instrukcija
-* Reikia parsisiųsti Vector.cpp failą.
+* Reikia parsisiųsti Vector.cpp, funkcijos.hpp, funkcijos.cpp failus.
 * Atsidaryti šį failą Visual Studio Code IDE.
 * Windows Subsystem Linux komandinėje eilutėje reikia subuildinti projektą: g++ -c funkcijos.cpp, po to g++ -o Vector Vector.cpp funkcijos.o arba papildomai atsisiuntus makefile'ą: make Vector.
 * Pasileisti programą (./Vector).
